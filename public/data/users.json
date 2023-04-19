@@ -1,0 +1,96 @@
+{
+    "user": [{
+            "id": 0,
+            "imageSrc": "",
+            "name": "xXGuhhXx",
+            "discord": "Usuario#1234",
+            "rank": 3,
+            "enteredIn": "01/02/2021 01:23:44",
+            "lastTime": "27/11/2022 23:46:00",
+            "projects": [{
+                    "id": 0,
+                    "title": "Yakuza 0: Lugar de Juramento",
+                    "translated": 308.254,
+                    "approved": 308.254,
+                    "voted": 308.254,
+                    "tags": ["tradutor", "revisor", "gerente"]
+                },
+                {
+                    "id": 1,
+                    "title": "Yakuza Kiwami",
+                    "translated": 308.254,
+                    "approved": 308.254,
+                    "voted": 308.254,
+                    "tags": ["tradutor", "revisor", "gerente"]
+                },
+                {
+                    "id": 2,
+                    "title": "Yakuza Kiwami 2",
+                    "translated": 308.254,
+                    "approved": 308.254,
+                    "voted": 308.254,
+                    "tags": ["tradutor", "revisor", "gerente"]
+                },
+                {
+                    "id": 3,
+                    "title": "Yakuza 3 Remastered",
+                    "translated": 308.254,
+                    "approved": 308.254,
+                    "voted": 308.254,
+                    "tags": ["tradutor", "revisor", "gerente"]
+                },
+                {
+                    "id": 4,
+                    "title": "Yakuza 4 Remastered",
+                    "translated": 308.254,
+                    "approved": 308.254,
+                    "voted": 308.254,
+                    "tags": ["tradutor", "revisor", "gerente"]
+                },
+                {
+                    "id": 5,
+                    "title": "Yakuza 5 Remastered",
+                    "translated": 0,
+                    "approved": 0,
+                    "voted": 0,
+                    "tags": ["tradutor", "revisor", "gerente"]
+                },
+                {
+                    "id": 6,
+                    "title": "Yakuza 6",
+                    "translated": 0,
+                    "approved": 0,
+                    "voted": 0,
+                    "tags": ["tradutor", "revisor", "gerente"]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "imageSrc": "",
+            "name": "destroyer",
+            "discord": "Usuario#5678",
+            "rank": 1,
+            "enteredIn": "01/02/2021 01:23:44",
+            "lastTime": "27/11/2022 23:46:00",
+            "projects": [{
+                    "id": 0,
+                    "title": "Yakuza 0: Lugar de Juramento",
+                    "translated": 308.254,
+                    "approved": 308.254,
+                    "voted": 308.254,
+                    "tags": ["tradutor", "revisor", "gerente"]
+                },
+                {
+                    "id": 1,
+                    "title": "Yakuza Kiwami",
+                    "translated": 308.254,
+                    "approved": 308.254,
+                    "voted": 308.254,
+                    "tags": ["tradutor", "revisor", "gerente"]
+                }
+
+            ]
+        }
+    ]
+}

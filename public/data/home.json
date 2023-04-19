@@ -1,0 +1,85 @@
+{
+    "steps": [{
+            "id": 0,
+            "imageSrc": "assets/images/icon-1.svg",
+            "alt": "icon step 1",
+            "width": 45,
+            "height": 40,
+            "text": "Qualidade garantida após revisão"
+        },
+        {
+            "id": 1,
+            "imageSrc": "assets/images/icon-2.svg",
+            "alt": "icon step",
+            "width": 42,
+            "height": 42,
+            "text": "Entrega rápida"
+        },
+        {
+            "id": 2,
+            "imageSrc": "assets/images/icon-3.svg",
+            "alt": "icon step",
+            "width": 42,
+            "height": 42,
+            "text": "Reutilização de textos"
+        },
+        {
+            "id": 3,
+            "imageSrc": "assets/images/icon-4.svg",
+            "alt": "icon step",
+            "width": 47,
+            "height": 44,
+            "text": "Ferramentas modernas "
+        },
+        {
+            "id": 4,
+            "imageSrc": "assets/images/icon-5.svg",
+            "alt": "icon step",
+            "width": 41,
+            "height": 42,
+            "text": "Sem compromisso, traduza no seu tempo."
+        }
+    ],
+
+    "roadMap": [{
+            "id": 0,
+            "title": "Yakuza 0: Lugar de Juramento",
+            "status": "concluido",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 1,
+            "title": "One Piece Pirate Warriors 3",
+            "status": "andamento",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 2,
+            "title": "YS VIII Lacrimosa of Dana",
+            "status": "andamento",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 3,
+            "title": "Yakuza Kiwami",
+            "status": "concluido",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 4,
+            "title": "Yakuza Kiwami 2",
+            "status": "concluido",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        }
+    ]
+}
