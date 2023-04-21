@@ -1,0 +1,124 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+
+.tab {
+
+    &-buttons {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: .1rem solid $gray;
+        margin: 0 0 1rem;
+
+        @include device(lg) {
+            justify-content: flex-start;
+        }
+
+        &-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 4.3rem;
+            background: $white;
+            color: $black;
+            font-size: 1.6rem;
+            font-weight: 400;
+            outline: none;
+            border: none;
+            position: relative;
+            cursor: pointer;
+
+            @include device(lg) {
+                max-width: 14rem;
+            }
+
+            &::before {
+                content: '';
+                width: 0%;
+                height: .3rem;
+                background-color: $green;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                transition: all .2s ease-in-out;
+            }
+
+
+            &_active {
+                &::before {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+    &-content {
+        opacity: 0;
+        transition: all .2s ease-in-out;
+
+        &_visible {
+            opacity: 1;
+        }
+    }
+}
+
+.tabProjects {
+    display: grid;
+    gap: 1rem;
+
+    @include device(lg) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &-card {
+        width: 100%;
+        padding: 1rem;
+        border: .1rem solid $gray;
+        border-radius: .5rem;
+
+        h3 {
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: $blue;
+            margin: 0 0 1rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin: 0 0 1rem;
+        }
+
+        &_tags {
+            display: flex;
+            gap: 1rem;
+
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 8.3rem;
+                height: 2rem;
+                font-size: 1rem;
+                font-weight: 400;
+                border-radius: .5rem;
+
+                &.tradutor {
+                    background-color: $blue2;
+                    color: $blue;
+                }
+
+                &.revisor {
+                    background-color: $green2;
+                    color: $green;
+                }
+
+                &.gerente {
+                    background-color: $red2;
+                    color: $red;
+                }
+            }
+        }
+    }
+}

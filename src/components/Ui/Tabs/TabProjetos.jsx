@@ -1,9 +1,11 @@
+import styles from './tabs.module.scss';
+
 const TabProjetos = ({ projects }) => {
 	return (
-		<div>
+		<div className={styles['tabProjects']}>
 			{projects.map(
 				({ id, title, translated, approved, voted, tags }) => (
-					<div key={id} className={''}>
+					<div key={id} className={styles['tabProjects-card']}>
 						<h3>{title}</h3>
 						<p>
 							Textos Traduzidos: <span>{translated}</span>
@@ -14,9 +16,9 @@ const TabProjetos = ({ projects }) => {
 						<p>
 							Textos Votados: <span>{voted}</span>
 						</p>
-						<div className={''}>
+						<div className={styles['tabProjects-card_tags']}>
 							{tags.map((tag) => (
-								<span key={tag} className={`${tag}`}>
+								<span key={tag} className={styles[`${tag}`]}>
 									{tag}
 								</span>
 							))}

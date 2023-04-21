@@ -1,0 +1,124 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.users {
+
+    &-content {
+        @include device(lg) {
+            display: grid;
+            grid-template-columns: 25rem 1fr;
+            gap: 2rem;
+        }
+
+        // ASIDE
+        &_aside {
+            @include device(lg) {
+                max-width: 30rem;
+                min-height: 67rem;
+            }
+
+            .image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: none;
+                width: 13rem;
+                height: 13rem;
+                margin: 0 auto 2rem;
+                background: linear-gradient(0deg, rgba(0, 171, 225, 1) 0%, rgba(158, 231, 0, 1) 100%);
+                border-radius: 50%;
+                overflow: hidden;
+                position: relative;
+
+                &::before {
+                    content: '';
+                    width: calc(100% - .4rem);
+                    height: calc(100% - .4rem);
+                    background-color: $gray;
+                    border-radius: 50%;
+                    position: absolute;
+                }
+
+                img {
+                    position: relative;
+                    width: calc(100% - .4rem);
+                    height: calc(100% - .4rem);
+                    border-radius: 50%;
+                    object-fit: cover;
+                    position: absolute;
+                    z-index: 1;
+                }
+
+                span {
+                    display: flex;
+                    font-size: 7rem;
+                    text-transform: uppercase;
+                    color: $black;
+                    position: absolute;
+                    z-index: 1;
+                }
+            }
+
+            .name {
+                margin: 0 0 2rem;
+
+                h2 {
+                    font-size: 2rem;
+                    font-weight: 600;
+                    margin: 0;
+                }
+            }
+
+            .discord {
+                margin: 0 0 2rem;
+
+                p {
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    margin: 0;
+                }
+            }
+
+            .rank {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 3.9rem;
+                background-color: $gray;
+                margin: 0 0 2.6rem;
+
+                p {
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    margin: 0;
+                }
+            }
+
+            .date {
+                display: grid;
+                gap: .5rem;
+                border-top: .1rem solid $gray;
+                padding: 1rem 0;
+
+                &-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    p {
+                        margin: 0;
+                        font-size: 1.2rem;
+                    }
+
+                    span {
+                        font-size: 1.2rem;
+
+                    }
+                }
+            }
+        }
+
+        // TABS
+        &_tabs {}
+    }
+}

@@ -11,6 +11,7 @@
 html {
   font-size: 60%;
   overflow-x: hidden;
+  color: $black;
 
   @include device(lg) {
     font-size: 62.5%;
@@ -21,6 +22,7 @@ body {
   font-size: 1.6rem;
   font-family: $fontFamily;
   overflow-x: hidden;
+  color: $black;
 }
 
 main {

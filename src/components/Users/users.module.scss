@@ -78,6 +78,7 @@
         span {
             display: flex;
             font-size: 7rem;
+            text-transform: uppercase;
             color: $black;
             position: absolute;
             z-index: 1;
@@ -88,7 +89,7 @@
         max-width: 48rem;
         text-align: center;
 
-        @include device(lg){
+        @include device(lg) {
             text-align: initial;
         }
 

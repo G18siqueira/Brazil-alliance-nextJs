@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 
+import Image from 'next/image';
 import axios from 'axios';
 
 import PageSeo from 'src/components/Layout/PageSeo/PageSeo';
@@ -8,7 +9,7 @@ import PageSeo from 'src/components/Layout/PageSeo/PageSeo';
 import styles from './usuario.module.scss';
 import Tabs from 'src/components/Ui/Tabs/Tabs';
 
-const User = ({ users }) => {
+const User = () => {
 	const router = useRouter();
 	const { userName } = router.query;
 	console.log('userName: ', userName);
@@ -39,7 +40,22 @@ const User = ({ users }) => {
 								<aside
 									className={styles['users-content_aside']}
 								>
-									<div className={styles['image']}></div>
+									<div className={styles['image']}>
+										{userInfos.name ? (
+											userInfos.imageSrc ? (
+												<Image
+													src={userInfos.imageSrc}
+													width={userInfos.width}
+													height={userInfos.height}
+													alt={userInfos.alt}
+												/>
+											) : (
+												<span>
+													{userInfos.name.charAt(0)}
+												</span>
+											)
+										) : null}
+									</div>
 									<div className={styles['name']}>
 										<h2>{userInfos.name}</h2>
 									</div>
@@ -51,23 +67,19 @@ const User = ({ users }) => {
 										<span>{userInfos.rank}</span>
 									</div>
 									<div className={styles['date']}>
-										<div
-											className={styles['date-entredIn']}
-										>
+										<div className={styles['date-content']}>
 											<p>Entrou em</p>
 											<span>{userInfos.enteredIn}</span>
 										</div>
 
-										<div
-											className={styles['date-lastTime']}
-										>
+										<div className={styles['date-content']}>
 											<p>Entrou em</p>
 											<span>{userInfos.lastTime}</span>
 										</div>
 									</div>
 								</aside>
 
-								<div className={''}>
+								<div className={styles['users-content_tabs']}>
 									<Tabs
 										user={userInfos}
 										classTab={''}
