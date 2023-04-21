@@ -1,0 +1,121 @@
+{
+    "teamUsers": [{
+            "id": 0,
+            "imageSrc": "/assets/images/user1.jpg",
+            "alt": "image user",
+            "width": 200,
+            "height": 200,
+            "name": "Maypew",
+            "offices": ["Tradutor", "Revisor", "Gerente", "Editor"],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar nisl nulla, eu pellentesque diam fermentum id. Donec feugiat tortor vehicula ligula ornare, ut pharetra urna dignissim. Pellentesque ornare sit amet mi in feugiat."
+        },
+        {
+            "id": 1,
+            "imageSrc": "",
+            "alt": "image user",
+            "width": 200,
+            "height": 200,
+            "name": "Fabsss",
+            "offices": ["Tradutor", "Revisor", "Gerente", "Editor"],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar nisl nulla, eu pellentesque diam fermentum id. Donec feugiat tortor vehicula ligula ornare, ut pharetra urna dignissim. Pellentesque ornare sit amet mi in feugiat."
+        },
+        {
+            "id": 2,
+            "imageSrc": "",
+            "alt": "image user",
+            "width": 200,
+            "height": 200,
+            "name": "Ximbas",
+            "offices": ["Tradutor", "Revisor", "Gerente", "Editor"],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar nisl nulla, eu pellentesque diam fermentum id. Donec feugiat tortor vehicula ligula ornare, ut pharetra urna dignissim. Pellentesque ornare sit amet mi in feugiat."
+        },
+        {
+            "id": 3,
+            "imageSrc": "",
+            "alt": "image user",
+            "width": 200,
+            "height": 200,
+            "name": "Leonan",
+            "offices": ["Tradutor", "Revisor", "Gerente", "Editor"],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar nisl nulla, eu pellentesque diam fermentum id. Donec feugiat tortor vehicula ligula ornare, ut pharetra urna dignissim. Pellentesque ornare sit amet mi in feugiat."
+        },
+        {
+            "id": 4,
+            "imageSrc": "",
+            "alt": "image user",
+            "width": 200,
+            "height": 200,
+            "name": "Teste",
+            "offices": ["Tradutor", "Revisor", "Gerente", "Editor"],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar nisl nulla, eu pellentesque diam fermentum id. Donec feugiat tortor vehicula ligula ornare, ut pharetra urna dignissim. Pellentesque ornare sit amet mi in feugiat."
+        }
+    ],
+
+    "teamClassfication": [{
+            "id": 0,
+            "imageSrc": "/assets/images/user1.jpg",
+            "alt": "image classification user",
+            "width": 50,
+            "height": 50,
+            "name": "Maypew",
+            "translatingWords": 906.567,
+            "revisedWords": 471.039,
+            "position": 1
+        },
+        {
+            "id": 1,
+            "imageSrc": "",
+            "alt": "image classification user",
+            "width": 50,
+            "height": 50,
+            "name": "Fabsss",
+            "translatingWords": 392.936,
+            "revisedWords": 303.185,
+            "position": 2
+        },
+        {
+            "id": 2,
+            "imageSrc": "",
+            "alt": "image classification user",
+            "width": 50,
+            "height": 50,
+            "name": "Ximbas",
+            "translatingWords": 217.373,
+            "revisedWords": 167.321,
+            "position": 3
+        },
+        {
+            "id": 3,
+            "imageSrc": "",
+            "alt": "image classification user",
+            "width": 50,
+            "height": 50,
+            "name": "Leonan",
+            "translatingWords": 135.479,
+            "revisedWords": 0,
+            "position": 4
+        },
+        {
+            "id": 4,
+            "imageSrc": "",
+            "alt": "image classification user",
+            "width": 50,
+            "height": 50,
+            "name": "Linkmadao",
+            "translatingWords": 134.797,
+            "revisedWords": 35.358,
+            "position": 5
+        },
+        {
+            "id": 5,
+            "imageSrc": "",
+            "alt": "image classification user",
+            "width": 50,
+            "height": 50,
+            "name": "Teste",
+            "translatingWords": 10,
+            "revisedWords": 0,
+            "position": 6
+        }
+    ]
+}

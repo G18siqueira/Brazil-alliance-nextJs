@@ -1,0 +1,95 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.user {
+    padding: 3.3rem 0;
+    border-bottom: .1rem solid $gray;
+
+    &:first-child {
+        padding: 0 0 3.3rem;
+    }
+
+    @include device(lg) {
+        display: flex;
+        align-items: center;
+        gap: 2.7rem;
+    }
+
+    &:nth-child(even) {
+        justify-content: flex-end;
+        text-align: right;
+
+        .image {
+
+            @include device(lg) {
+                order: 2;
+            }
+        }
+
+        .infos {
+            @include device(lg) {
+                order: 1;
+            }
+        }
+    }
+
+
+
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: none;
+        width: 20rem;
+        height: 20rem;
+        background: linear-gradient(0deg, rgba(0, 171, 225, 1) 0%, rgba(158, 231, 0, 1) 100%);
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+
+        &::before {
+            content: '';
+            width: calc(100% - .4rem);
+            height: calc(100% - .4rem);
+            background-color: $gray;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        img {
+            position: relative;
+            width: calc(100% - .4rem);
+            height: calc(100% - .4rem);
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            z-index: 1;
+        }
+
+        span {
+            display: flex;
+            font-size: 7rem;
+            color: $black;
+            position: absolute;
+            z-index: 1;
+        }
+    }
+
+    .infos {
+        max-width: 48rem;
+
+        h2 {
+            margin: 0 0 1.5rem;
+            font-size: 3.2rem;
+            font-weight: 600;
+        }
+
+        h3 {
+            margin: 0 0 1rem;
+            font-size: 1.6rem;
+            font-weight: 500;
+            font-style: italic;
+        }
+    }
+
+}

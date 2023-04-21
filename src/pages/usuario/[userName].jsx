@@ -3,10 +3,10 @@ import { useRouter } from 'next/router';
 
 import axios from 'axios';
 
-import PageSeo from '@/components/Layout/PageSeo/PageSeo';
+import PageSeo from 'src/components/Layout/PageSeo/PageSeo';
 
 import styles from './usuario.module.scss';
-import Tabs from '@/components/Ui/Tabs/Tabs';
+import Tabs from 'src/components/Ui/Tabs/Tabs';
 
 const User = ({ users }) => {
 	const router = useRouter();

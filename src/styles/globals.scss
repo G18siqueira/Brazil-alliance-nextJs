@@ -10,6 +10,7 @@
 
 html {
   font-size: 60%;
+  overflow-x: hidden;
 
   @include device(lg) {
     font-size: 62.5%;
@@ -19,12 +20,25 @@ html {
 body {
   font-size: 1.6rem;
   font-family: $fontFamily;
+  overflow-x: hidden;
+}
+
+main {
+  margin: 10.3rem 0 0;
+
+  @include device(lg) {
+    margin: 0;
+  }
 }
 
 h1 {
   font-size: 4.8rem;
   font-weight: 400;
-  margin: 0 0 3.6rem;
+  margin: 0 0 2.6rem;
+
+  @include device(lg) {
+    margin: 0 0 3.6rem;
+  }
 
   &.tit {
     font-weight: 600;
@@ -33,11 +47,35 @@ h1 {
 
 p {
   font-size: 1.6rem;
+  line-height: 2rem;
+  margin: 0 0 1.5rem;
 }
 
 a {
   text-decoration: none;
   color: $black;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  @include device(lg) {
+    max-width: 25rem;
+  }
+
+
+  &-green {
+    background-color: $green;
+  }
+
+  &-blue {
+    background-color: $blue;
+  }
 }
 
 // CONTAINER

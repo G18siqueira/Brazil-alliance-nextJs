@@ -80,6 +80,70 @@
             "imageSrc": "assets/images/img-card.jpg",
             "inProgress": "",
             "progressCompleted": ""
+        },
+        {
+            "id": 5,
+            "title": "Fatal Frame: Maiden of Black Water",
+            "status": "andamento",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 6,
+            "title": "Yakuza 3",
+            "status": "concluido",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 7,
+            "title": "Yakuza 4: Sucessor da Lenda",
+            "status": "andamento",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 8,
+            "title": "Yakuza 5: Sonho",
+            "status": "",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 9,
+            "title": "Yakuza 6: Canção da Vida",
+            "status": "",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 10,
+            "title": "Judge Eyes / Judgement",
+            "status": "",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 11,
+            "title": "Lost Judgement",
+            "status": "",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
+        },
+        {
+            "id": 12,
+            "title": "Como um Dragão: Ishin Kiwami",
+            "status": "",
+            "imageSrc": "assets/images/img-card.jpg",
+            "inProgress": "",
+            "progressCompleted": ""
         }
     ]
 }

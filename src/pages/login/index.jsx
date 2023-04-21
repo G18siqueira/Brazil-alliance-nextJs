@@ -1,4 +1,4 @@
-import PageSeo from '@/components/Layout/PageSeo/PageSeo';
+import PageSeo from 'src/components/Layout/PageSeo/PageSeo';
 import React from 'react';
 
 import Image from 'next/image';

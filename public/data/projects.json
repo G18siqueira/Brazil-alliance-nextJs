@@ -1,0 +1,89 @@
+{
+    "projectsBza": [{
+            "id": 0,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        },
+        {
+            "id": 1,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        },
+        {
+            "id": 2,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        },
+        {
+            "id": 3,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        },
+        {
+            "id": 4,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        },
+        {
+            "id": 5,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        }
+    ],
+
+    "projectsPartners": [{
+            "id": 0,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        },
+        {
+            "id": 1,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        },
+        {
+            "id": 2,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        },
+        {
+            "id": 3,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        },
+        {
+            "id": 4,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        },
+        {
+            "id": 5,
+            "imageSrc": "/assets/images/img-card.jpg",
+            "alt": "image project",
+            "width": 500,
+            "height": 250
+        }
+    ]
+}

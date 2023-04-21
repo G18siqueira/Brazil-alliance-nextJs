@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import axios from 'axios';
 
-import PageSeo from '@/components/Layout/PageSeo/PageSeo';
+import PageSeo from 'src/components/Layout/PageSeo/PageSeo';
 
 import styles from './index.module.scss';
 
@@ -46,8 +46,9 @@ const Home = () => {
 								<p>
 									Nós somos um grupo aberto de traduções
 									coletivas de jogos eletrônicos, com foco
-									principal na série Yakuza.
+									principal na série <strong>Yakuza</strong> .
 								</p>
+
 								<div className={styles['buttons']}>
 									<Link
 										href=""
@@ -123,7 +124,11 @@ const Home = () => {
 									sugestões são sempre bem-vindas!
 								</p>
 								<div className={styles['readMore']}>
-									<Link href="" aria-label="link read more">
+									<Link
+										href=""
+										className={`btn btn-green`}
+										aria-label="link read more"
+									>
 										Leia mais
 									</Link>
 								</div>
@@ -209,16 +214,19 @@ const Home = () => {
 										progressCompleted,
 									}) => (
 										<div
-											className={`${styles['project']} ${
-												styles[`project-${status}`]
-											}`}
+											key={id}
+											className={`${styles['project']} `}
 										>
 											<div
 												className={
 													styles['project-status']
 												}
 											>
-												<span>{status}</span>
+												<span
+													className={
+														styles[`${status}`]
+													}
+												></span>
 												<p>{title}</p>
 											</div>
 										</div>
