@@ -163,21 +163,30 @@
       &_projects {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: flex-start;
+
+        @include device(lg) {
+          align-items: center;
+
+        }
 
         .project {
           &:nth-child(odd) {
-            p {
-              transform: translateX(25rem);
-              text-align: left;
+            @include device(lg) {
+              p {
+                transform: translateX(25rem);
+                text-align: left;
+              }
             }
           }
 
           &:nth-child(even) {
-            p {
-              transform: translateX(-25rem);
-              text-align: right;
+            @include device(lg) {
+              p {
+                transform: translateX(-25rem);
+                text-align: right;
+              }
             }
           }
 
@@ -194,9 +203,15 @@
           &-status {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
             padding: 0 0 5rem;
             position: relative;
+            gap: 1rem;
+
+            @include device(lg) {
+              justify-content: center;
+              gap: initial;
+            }
 
             &::before {
               content: '';
@@ -204,9 +219,12 @@
               height: 5rem;
               background-color: $black;
               position: absolute;
+              left: 1.7rem;
               bottom: 0;
 
-
+              @include device(lg) {
+                left: initial;
+              }
             }
 
             span {
@@ -227,8 +245,12 @@
 
             p {
               min-width: 40rem;
-              position: absolute;
               margin: 0;
+
+              @include device(lg) {
+                position: absolute;
+              }
+
             }
           }
         }
