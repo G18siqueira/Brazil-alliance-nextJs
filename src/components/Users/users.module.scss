@@ -16,21 +16,25 @@
     }
 
     &:nth-child(even) {
-        justify-content: flex-end;
-        text-align: right;
 
-        .image {
+        @include device(lg) {
+            justify-content: flex-end;
+            text-align: right;
 
-            @include device(lg) {
-                order: 2;
+            .image {
+
+                @include device(lg) {
+                    order: 2;
+                }
+            }
+
+            .infos {
+                @include device(lg) {
+                    order: 1;
+                }
             }
         }
 
-        .infos {
-            @include device(lg) {
-                order: 1;
-            }
-        }
     }
 
 
@@ -42,10 +46,15 @@
         flex: none;
         width: 20rem;
         height: 20rem;
+        margin: 0 auto 2rem;
         background: linear-gradient(0deg, rgba(0, 171, 225, 1) 0%, rgba(158, 231, 0, 1) 100%);
         border-radius: 50%;
         overflow: hidden;
         position: relative;
+
+        @include device(lg) {
+            margin: initial;
+        }
 
         &::before {
             content: '';
@@ -77,6 +86,11 @@
 
     .infos {
         max-width: 48rem;
+        text-align: center;
+
+        @include device(lg){
+            text-align: initial;
+        }
 
         h2 {
             margin: 0 0 1.5rem;
