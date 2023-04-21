@@ -210,6 +210,8 @@ const Home = () => {
 										title,
 										status,
 										imageSrc,
+										width,
+										height,
 										inprogress,
 										progressCompleted,
 									}) => (
@@ -227,7 +229,21 @@ const Home = () => {
 														styles[`${status}`]
 													}
 												></span>
+
 												<p>{title}</p>
+												
+												<div
+													className={
+														styles['project-hover']
+													}
+												>
+													<Image
+														src={imageSrc}
+														width={width}
+														height={height}
+														alt=""
+													/>
+												</div>
 											</div>
 										</div>
 									),
