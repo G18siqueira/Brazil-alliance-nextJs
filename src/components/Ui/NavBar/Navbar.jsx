@@ -28,6 +28,14 @@ const Navbar = ({ className, onClick }) => {
 			>
 				Projetos
 			</Link>
+			<Link
+				href="/login"
+				aria-label="link projetos"
+				className={className}
+				onClick={onClick}
+			>
+				Login
+			</Link>
 		</>
 	);
 };

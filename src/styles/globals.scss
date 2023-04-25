@@ -70,6 +70,13 @@ a {
     max-width: 25rem;
   }
 
+  &:hover {
+    span {
+      transform: translateX(.5rem);
+      font-weight: bold;
+    }
+  }
+
 
   &-green {
     background-color: $green;
@@ -77,6 +84,10 @@ a {
 
   &-blue {
     background-color: $blue;
+  }
+
+  span {
+    transition: all .2s ease-in-out;
   }
 }
 

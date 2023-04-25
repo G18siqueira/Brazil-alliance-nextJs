@@ -48,8 +48,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 14,
+            "progressCompleted": 44
         },
         {
             "id": 1,
@@ -58,8 +58,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 37,
+            "progressCompleted": 68
         },
         {
             "id": 2,
@@ -68,8 +68,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 12,
+            "progressCompleted": 41
         },
         {
             "id": 3,
@@ -78,8 +78,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 23,
+            "progressCompleted": 78
         },
         {
             "id": 4,
@@ -88,8 +88,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 5,
+            "progressCompleted": 30
         },
         {
             "id": 5,
@@ -98,8 +98,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 70,
+            "progressCompleted": 80
         },
         {
             "id": 6,
@@ -108,8 +108,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 62,
+            "progressCompleted": 98
         },
         {
             "id": 7,
@@ -118,8 +118,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 100,
+            "progressCompleted": 100
         },
         {
             "id": 8,
@@ -128,8 +128,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 0,
+            "progressCompleted": 0
         },
         {
             "id": 9,
@@ -138,8 +138,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 0,
+            "progressCompleted": 0
         },
         {
             "id": 10,
@@ -148,8 +148,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 0,
+            "progressCompleted": 0
         },
         {
             "id": 11,
@@ -158,8 +158,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 0,
+            "progressCompleted": 0
         },
         {
             "id": 12,
@@ -168,8 +168,8 @@
             "imageSrc": "/assets/images/img-card.jpg",
             "width": 500,
             "height": 250,
-            "inProgress": "",
-            "progressCompleted": ""
+            "inProgress": 0,
+            "progressCompleted": 0
         }
     ]
 }

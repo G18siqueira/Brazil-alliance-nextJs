@@ -55,14 +55,14 @@ const Home = () => {
 										className={`btn btn-green`}
 										aria-label="link traduzir"
 									>
-										Quero traduzir agora!
+										<span>Quero traduzir agora!</span>
 									</Link>
 									<Link
 										href=""
 										className={`btn btn-blue`}
 										aria-label="link instalador"
 									>
-										Baixar instalador
+										<span>Baixar instalador</span>
 									</Link>
 								</div>
 							</div>
@@ -129,7 +129,7 @@ const Home = () => {
 										className={`btn btn-green`}
 										aria-label="link read more"
 									>
-										Leia mais
+										<span>Leia mais</span>
 									</Link>
 								</div>
 							</div>
@@ -212,7 +212,7 @@ const Home = () => {
 										imageSrc,
 										width,
 										height,
-										inprogress,
+										inProgress,
 										progressCompleted,
 									}) => (
 										<div
@@ -231,7 +231,7 @@ const Home = () => {
 												></span>
 
 												<p>{title}</p>
-												
+
 												<div
 													className={
 														styles['project-hover']
@@ -243,6 +243,55 @@ const Home = () => {
 														height={height}
 														alt=""
 													/>
+
+													<div
+														className={
+															styles[
+																'project-hover_ranges'
+															]
+														}
+													>
+														<div
+															className={
+																styles['range']
+															}
+														>
+															<span
+																className={
+																	styles[
+																		'range-bg_green'
+																	]
+																}
+																style={{
+																	width: `${inProgress}%`,
+																}}
+															>
+																{inProgress}%
+															</span>
+														</div>
+
+														<div
+															className={
+																styles['range']
+															}
+														>
+															<span
+																className={
+																	styles[
+																		'range-bg_blue'
+																	]
+																}
+																style={{
+																	width: `${progressCompleted}%`,
+																}}
+															>
+																{
+																	progressCompleted
+																}
+																%
+															</span>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>

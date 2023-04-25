@@ -9,7 +9,7 @@ const Tabs = ({ user }) => {
 	const tabs = [
 		{
 			label: 'Resumo',
-			content: <TabResumo />,
+			content: <TabResumo resume={user.resume} />,
 		},
 		{
 			label: 'Projetos',
