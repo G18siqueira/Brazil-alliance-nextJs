@@ -1,3 +1,5 @@
+Esse é um projeto voluntário que estou fazendo para o grupo de tradução de jogos [Brazil Alliance](https://brazilalliance.com.br/), onde estou fazendo um novo site seguindo o layout(figma) disponibilizado pelo próprio grupo. O site está em desenvolvimento, sendo atualizado assim que houverem novas informações do grupo!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
