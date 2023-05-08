@@ -1,4 +1,19 @@
-Esse é um projeto voluntário que estou fazendo para o grupo de tradução de jogos [Brazil Alliance](https://brazilalliance.com.br/), onde estou fazendo um novo site utilizando o Next.JS, seguindo o layout(figma) disponibilizado pelo próprio grupo. O site está em desenvolvimento, sendo atualizado assim que houverem novas informações do grupo!
+# Brazil Alliance - Site de Tradução de Jogos
+
+Este é um projeto voluntário que estou desenvolvendo para o grupo de tradução de jogos [Brazil Alliance](https://brazilalliance.com.br/). O objetivo é criar um novo site utilizando Next.js, seguindo o layout disponibilizado pelo grupo por meio do Figma. O site está em constante desenvolvimento e será atualizado sempre que houver novas informações do grupo.
+
+## Descrição do Projeto
+
+O Brazil Alliance é um grupo dedicado à tradução de jogos para o português brasileiro. Este projeto consiste na criação de um novo site para o grupo, com o intuito de fornecer informações sobre os jogos traduzidos, membros do grupo e outras novidades relacionadas.
+
+
+## Funcionalidades
+
+- Visualização de informações sobre os jogos traduzidos pelo grupo.
+- Apresentação dos membros do grupo de tradução.
+- Atualizações frequentes sobre os projetos em andamento.
+
+##
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
